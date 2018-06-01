@@ -1,4 +1,9 @@
 import journal
+# TODO edit entry feature
+# TODO remove entry feature
+# TODO record date/time of entries
+# TODO obscure entries?
+# TODO share entries?
 
 
 def main():
@@ -53,4 +58,3 @@ print('__name__ ' + __name__)
 
 if __name__ == '__main__':
     main()
-
