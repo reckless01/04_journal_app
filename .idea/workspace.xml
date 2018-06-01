@@ -4,6 +4,7 @@
     <list default="true" id="a8b91635-4f51-463b-a406-b0618870574a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/journal.py" beforeDir="false" afterPath="$PROJECT_DIR$/journal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/journals/default.jrl" beforeDir="false" afterPath="$PROJECT_DIR$/journals/default.jrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/program.py" beforeDir="false" afterPath="$PROJECT_DIR$/program.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +16,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/journal_app$program2.coverage" NAME="program2 Coverage Results" MODIFIED="1527795861103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/journal_app$journal.coverage" NAME="journal Coverage Results" MODIFIED="1527874177438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/journal_app$program.coverage" NAME="program Coverage Results" MODIFIED="1527875600313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/journal_app$journal.coverage" NAME="journal Coverage Results" MODIFIED="1527876314872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/journal_app$program.coverage" NAME="program Coverage Results" MODIFIED="1527877521209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="journal_app" />
@@ -32,20 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="program.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="program.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/program.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="990">
+              <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="journal.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="journal.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/journal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+            <state relative-caret-position="735">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -78,8 +79,8 @@
       <list>
         <option value="$PROJECT_DIR$/program2.py" />
         <option value="$PROJECT_DIR$/journals/default.jrl" />
-        <option value="$PROJECT_DIR$/program.py" />
         <option value="$PROJECT_DIR$/journal.py" />
+        <option value="$PROJECT_DIR$/program.py" />
       </list>
     </option>
   </component>
@@ -109,6 +110,11 @@
             <path>
               <item name="journal_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="journal_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="journal_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="journal_app" type="462c0819:PsiDirectoryNode" />
+              <item name="journals" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527868968029</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Edit_entry function added">
+      <created>1527875712059</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527875712059</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Edited edit_entry&#10;new branch for edit_entry">
+      <created>1527875827906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527875827906</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -254,7 +274,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49318182" weight="0.48490232" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49848485" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49772727" visible="true" weight="0.5275311" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49772727" weight="0.669627" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49469697" weight="0.5133215" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49626866" visible="true" weight="0.19393939" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -335,7 +355,9 @@
     <MESSAGE value="Cleaned up journal entry for future use&#10;added future TODOs" />
     <MESSAGE value="Cleaned up journal entry for future use&#10;added todo features" />
     <MESSAGE value=".idea updates" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea updates" />
+    <MESSAGE value="Edit_entry function added" />
+    <MESSAGE value="Edited edit_entry&#10;new branch for edit_entry" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited edit_entry&#10;new branch for edit_entry" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -434,6 +456,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/journal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/journals/default.jrl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -443,15 +472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/program.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/journal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        <state relative-caret-position="990">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
         </state>
       </provider>
     </entry>

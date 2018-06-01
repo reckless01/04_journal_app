@@ -1,6 +1,6 @@
 import journal
-# TODO update edit: Remove old entry after edit, make print list more user friendly.
-# TODO remove entry feature
+# TODO update edit: Make list selection index more user friendly
+# TODO remove feature
 # TODO record date/time of entries
 # TODO obscure entries?
 # TODO share entries?
@@ -43,10 +43,12 @@ def run_event_loop():
 
 
 def list_entries(data):
+    print('')
     print('Your journal entries: ')
     entries = reversed(data)
     for idx, entry in enumerate(entries):
         print('* [{}] {}'.format(idx+1, entry))
+    print('')
 
 
 def add_entry(data):
@@ -60,8 +62,10 @@ def edit_entry(journal_data):
     print('================== ')
     print(' ')
     n = int(input('Please choose the number of the entry you want to edit: '))
+    # m = n+1
     print(journal_data[n])
-    text = input('Type your new entry: ' )
+    print(' ')
+    text = input('Type your new entry: ')
     journal.edit_entry(text, journal_data, n)
 
 
