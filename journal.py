@@ -41,3 +41,6 @@ def get_full_pathname(name):
 def add_entry(text, journal_data):
     journal_data.append(text)
 
+
+def edit_entry(text, journal_data, n):
+    journal_data.insert(n, text)

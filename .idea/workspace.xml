@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a8b91635-4f51-463b-a406-b0618870574a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/journal.py" beforeDir="false" afterPath="$PROJECT_DIR$/journal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program.py" beforeDir="false" afterPath="$PROJECT_DIR$/program.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,9 +14,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/journal_app$journal.coverage" NAME="journal Coverage Results" MODIFIED="1527794072452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/journal_app$program2.coverage" NAME="program2 Coverage Results" MODIFIED="1527795861103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/journal_app$program.coverage" NAME="program Coverage Results" MODIFIED="1527817956716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/journal_app$journal.coverage" NAME="journal Coverage Results" MODIFIED="1527874177438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/journal_app$program.coverage" NAME="program Coverage Results" MODIFIED="1527875600313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="journal_app" />
@@ -30,29 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="program.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="program.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="116">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="program2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="journal.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="journal.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/journal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="124">
+              <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -83,10 +76,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/journal.py" />
         <option value="$PROJECT_DIR$/program2.py" />
         <option value="$PROJECT_DIR$/journals/default.jrl" />
         <option value="$PROJECT_DIR$/program.py" />
+        <option value="$PROJECT_DIR$/journal.py" />
       </list>
     </option>
   </component>
@@ -100,10 +93,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="47" />
-    <option name="width" value="1221" />
-    <option name="height" value="593" />
+    <option name="y" value="25" />
+    <option name="width" value="1366" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -117,11 +109,6 @@
             <path>
               <item name="journal_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="journal_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="journal_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="journal_app" type="462c0819:PsiDirectoryNode" />
-              <item name="journals" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -170,7 +157,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="program" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="program" type="PythonConfigurationType" factoryName="Python" singleton="true" temporary="true">
       <module name="journal_app" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,8 +203,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.program" />
-        <item itemvalue="Python.program2" />
         <item itemvalue="Python.journal" />
+        <item itemvalue="Python.program2" />
       </list>
     </recent_temporary>
   </component>
@@ -239,10 +226,17 @@
       <option name="project" value="LOCAL" />
       <updated>1527817022578</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".idea updates">
+      <created>1527868968029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527868968029</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -255,16 +249,17 @@
     <frame x="0" y="25" width="1366" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924242" weight="0.3289855" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.505303" side_tool="true" visible="true" weight="0.7939609" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924242" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.505303" side_tool="true" weight="0.4635879" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49318182" weight="0.7477797" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49318182" weight="0.48490232" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49848485" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49772727" weight="0.5275362" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49469697" visible="true" weight="0.7939609" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49772727" visible="true" weight="0.5275311" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49469697" weight="0.5133215" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49626866" visible="true" weight="0.19393939" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50373137" side_tool="true" weight="0.18787879" />
@@ -275,7 +270,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -340,7 +334,8 @@
     <MESSAGE value="Cleaned up journal entry for future use" />
     <MESSAGE value="Cleaned up journal entry for future use&#10;added future TODOs" />
     <MESSAGE value="Cleaned up journal entry for future use&#10;added todo features" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up journal entry for future use&#10;added todo features" />
+    <MESSAGE value=".idea updates" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -432,13 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/journal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/program2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -455,8 +443,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/program.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="116">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/journal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
         </state>
       </provider>
     </entry>
