@@ -3,6 +3,8 @@ import journal
 # TODO remove feature
 # TODO record date/time of entries
 # TODO obscure entries?
+# TODO Load different journals
+# TODO password protect journals? Users?
 # TODO share entries?
 
 
@@ -54,7 +56,6 @@ def list_entries(data):
 def add_entry(data):
     text = input('Type your entry: ')
     journal.add_entry(text, data)
-    # data.append(text)
 
 
 def edit_entry(journal_data):
@@ -62,7 +63,6 @@ def edit_entry(journal_data):
     print('================== ')
     print(' ')
     n = int(input('Please choose the number of the entry you want to edit: '))
-    # m = n+1
     print(journal_data[n])
     print(' ')
     text = input('Type your new entry: ')
