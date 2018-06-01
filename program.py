@@ -1,5 +1,5 @@
 import journal
-# TODO update edit feature:  Remove old entry, print list in order friendly to user
+# TODO update edit: Remove old entry after edit, make print list more user friendly.
 # TODO remove entry feature
 # TODO record date/time of entries
 # TODO obscure entries?
