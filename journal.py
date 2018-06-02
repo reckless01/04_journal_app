@@ -43,6 +43,6 @@ def add_entry(text, journal_data):
 
 
 def edit_entry(text, journal_data, n):
-    m = n + 1
-    journal_data.insert(n, text)
-    journal_data.pop(m)
+    mn = n - 1
+    journal_data.insert(mn, text)
+    journal_data.pop(n)

@@ -1,5 +1,5 @@
 import journal
-# TODO update edit: Make list selection index more user friendly
+# TODO update edit: write logic for 'select entry number' input, list in user friendly order?
 # TODO remove feature
 # TODO record date/time of entries
 # TODO obscure entries?
@@ -63,7 +63,8 @@ def edit_entry(journal_data):
     print('================== ')
     print(' ')
     n = int(input('Please choose the number of the entry you want to edit: '))
-    print(journal_data[n])
+    mn = n - 1
+    print(journal_data[mn])
     print(' ')
     text = input('Type your new entry: ')
     journal.edit_entry(text, journal_data, n)
