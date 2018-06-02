@@ -46,3 +46,7 @@ def edit_entry(text, journal_data, n):
     mn = n - 1
     journal_data.insert(mn, text)
     journal_data.pop(n)
+
+
+def del_entry(journal_data, n):
+    journal_data.pop(n)
