@@ -58,13 +58,22 @@ def list_entries(data):
     print('')
 
 
+def list_entries_r(data):
+    print('')
+    print('Your journal entries: ')
+    entries = reversed(data)
+    for idx, entry in enumerate(entries):
+        print('* [{}] {}'.format(idx + 1, entry))
+    print('')
+
+
 def add_entry(data):
     text = input('Type your entry: ')
     journal.add_entry(text, data)
 
 
 def edit_entry(journal_data):
-    list_entries(journal_data)
+    list_entries_r(journal_data)
     print('================== ')
     print(' ')
     n = int(input('Please choose the number of the entry you want to edit: '))
